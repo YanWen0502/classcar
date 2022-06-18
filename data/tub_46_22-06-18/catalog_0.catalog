@@ -1,0 +1,6 @@
+{"_index": 0, "_session_id": "22-06-18_0", "_timestamp_ms": 1655535613057, "cam/image_array": "0_cam_image_array_.jpg", "user/angle": 0.014285714285714355, "user/mode": "local_angle", "user/throttle": 0.05}
+{"_index": 1, "_session_id": "22-06-18_0", "_timestamp_ms": 1655535613451, "cam/image_array": "1_cam_image_array_.jpg", "user/angle": 6.473133081207438e-17, "user/mode": "local_angle", "user/throttle": 0.05}
+{"_index": 2, "_session_id": "22-06-18_0", "_timestamp_ms": 1655536113515, "cam/image_array": "2_cam_image_array_.jpg", "user/angle": 0.15714285714285733, "user/mode": "user", "user/throttle": 0.05}
+{"_index": 3, "_session_id": "22-06-18_0", "_timestamp_ms": 1655536113677, "cam/image_array": "3_cam_image_array_.jpg", "user/angle": 0.1453846067819769, "user/mode": "user", "user/throttle": 0.05}
+{"_index": 4, "_session_id": "22-06-18_0", "_timestamp_ms": 1655536113839, "cam/image_array": "4_cam_image_array_.jpg", "user/angle": 0.1453846067819769, "user/mode": "user", "user/throttle": 0.05}
+{"_index": 5, "_session_id": "22-06-18_0", "_timestamp_ms": 1655536114001, "cam/image_array": "5_cam_image_array_.jpg", "user/angle": 0.1453846067819769, "user/mode": "user", "user/throttle": 0.05}
