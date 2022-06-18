@@ -30,6 +30,7 @@ from donkeycar.parts.file_watcher import FileWatcher
 from donkeycar.parts.launch import AiLaunch
 from donkeycar.utils import *
 
+
 logger = logging.getLogger()
 logging.basicConfig(level=logging.INFO)
 
@@ -470,10 +471,11 @@ def drive(cfg, model_path=None, use_joystick=False, model_type=None,
                 return user_angle, user_throttle
 
             elif mode == 'local_angle':
-                return pilot_angle if pilot_angle else 0.0, user_throttle
+                return pilot_angle, user_throttle
 
             else:
-                return pilot_angle if pilot_angle else 0.0, pilot_throttle * cfg.AI_THROTTLE_MULT if pilot_throttle else 0.0
+                return pilot_angle, pilot_throttle 
+#* cfg.AI_THROTTLE_MULT
 
     V.add(DriveMode(),
           inputs=['user/mode', 'user/angle', 'user/throttle',

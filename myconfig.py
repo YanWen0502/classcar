@@ -17,7 +17,7 @@
 # 
 # #VEHICLE
 # DRIVE_LOOP_HZ = 20      # the vehicle loop will pause if faster than this speed.
-# MAX_LOOPS = None        # the vehicle loop can abort after this many iterations, when given a positive integer.
+# MAX_LOOPS = NONE        # the vehicle loop can abort after this many iterations, when given a positive integer.
 # 
 # #CAMERA
 CAMERA_TYPE = "CSIC"   # (PICAM|WEBCAM|CVCAM|CSIC|V4L|D435|MOCK|IMAGE_LIST)
